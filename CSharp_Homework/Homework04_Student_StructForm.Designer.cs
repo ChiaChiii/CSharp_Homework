@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox_Score = new System.Windows.Forms.GroupBox();
-            this.btn_HighestandLowest = new System.Windows.Forms.Button();
             this.lab_HighestandLowest = new System.Windows.Forms.Label();
             this.labScore = new System.Windows.Forms.Label();
+            this.btn_HighestandLowest = new System.Windows.Forms.Button();
             this.btnShow = new System.Windows.Forms.Button();
             this.BtnSave = new System.Windows.Forms.Button();
             this.txtMath = new System.Windows.Forms.TextBox();
@@ -50,52 +50,46 @@
             this.groupBox_Score.Controls.Add(this.lab_HighestandLowest);
             this.groupBox_Score.Controls.Add(this.labScore);
             this.groupBox_Score.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.groupBox_Score.Location = new System.Drawing.Point(283, 6);
-            this.groupBox_Score.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox_Score.Location = new System.Drawing.Point(212, 5);
             this.groupBox_Score.Name = "groupBox_Score";
-            this.groupBox_Score.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox_Score.Size = new System.Drawing.Size(363, 481);
+            this.groupBox_Score.Size = new System.Drawing.Size(272, 385);
             this.groupBox_Score.TabIndex = 21;
             this.groupBox_Score.TabStop = false;
             this.groupBox_Score.Text = "成績";
             // 
-            // btn_HighestandLowest
-            // 
-            this.btn_HighestandLowest.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btn_HighestandLowest.Location = new System.Drawing.Point(353, 495);
-            this.btn_HighestandLowest.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_HighestandLowest.Name = "btn_HighestandLowest";
-            this.btn_HighestandLowest.Size = new System.Drawing.Size(291, 45);
-            this.btn_HighestandLowest.TabIndex = 2;
-            this.btn_HighestandLowest.Text = "最高分/最低分科目";
-            this.btn_HighestandLowest.UseVisualStyleBackColor = true;
-            this.btn_HighestandLowest.Click += new System.EventHandler(this.btn_HighestandLowest_Click);
-            // 
             // lab_HighestandLowest
             // 
             this.lab_HighestandLowest.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.lab_HighestandLowest.Location = new System.Drawing.Point(8, 271);
-            this.lab_HighestandLowest.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lab_HighestandLowest.Location = new System.Drawing.Point(6, 217);
             this.lab_HighestandLowest.Name = "lab_HighestandLowest";
-            this.lab_HighestandLowest.Size = new System.Drawing.Size(347, 202);
+            this.lab_HighestandLowest.Size = new System.Drawing.Size(260, 162);
             this.lab_HighestandLowest.TabIndex = 1;
             // 
             // labScore
             // 
             this.labScore.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.labScore.Location = new System.Drawing.Point(8, 40);
-            this.labScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labScore.Location = new System.Drawing.Point(6, 32);
             this.labScore.Name = "labScore";
-            this.labScore.Size = new System.Drawing.Size(347, 210);
+            this.labScore.Size = new System.Drawing.Size(260, 168);
             this.labScore.TabIndex = 0;
+            // 
+            // btn_HighestandLowest
+            // 
+            this.btn_HighestandLowest.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.btn_HighestandLowest.Location = new System.Drawing.Point(265, 396);
+            this.btn_HighestandLowest.Name = "btn_HighestandLowest";
+            this.btn_HighestandLowest.Size = new System.Drawing.Size(218, 36);
+            this.btn_HighestandLowest.TabIndex = 2;
+            this.btn_HighestandLowest.Text = "最高分/最低分科目";
+            this.btn_HighestandLowest.UseVisualStyleBackColor = true;
+            this.btn_HighestandLowest.Click += new System.EventHandler(this.btn_HighestandLowest_Click);
             // 
             // btnShow
             // 
             this.btnShow.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnShow.Location = new System.Drawing.Point(144, 335);
-            this.btnShow.Margin = new System.Windows.Forms.Padding(4);
+            this.btnShow.Location = new System.Drawing.Point(125, 274);
             this.btnShow.Name = "btnShow";
-            this.btnShow.Size = new System.Drawing.Size(121, 61);
+            this.btnShow.Size = new System.Drawing.Size(75, 50);
             this.btnShow.TabIndex = 20;
             this.btnShow.Text = "顯示儲存內容";
             this.btnShow.UseVisualStyleBackColor = true;
@@ -104,10 +98,9 @@
             // BtnSave
             // 
             this.BtnSave.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.BtnSave.Location = new System.Drawing.Point(5, 335);
-            this.BtnSave.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnSave.Location = new System.Drawing.Point(21, 274);
             this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(131, 61);
+            this.BtnSave.Size = new System.Drawing.Size(82, 50);
             this.BtnSave.TabIndex = 19;
             this.BtnSave.Text = "儲存";
             this.BtnSave.UseVisualStyleBackColor = true;
@@ -116,10 +109,9 @@
             // txtMath
             // 
             this.txtMath.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtMath.Location = new System.Drawing.Point(94, 277);
-            this.txtMath.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMath.Location = new System.Drawing.Point(70, 222);
             this.txtMath.Name = "txtMath";
-            this.txtMath.Size = new System.Drawing.Size(132, 38);
+            this.txtMath.Size = new System.Drawing.Size(100, 32);
             this.txtMath.TabIndex = 18;
             this.txtMath.Text = "0";
             this.txtMath.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -127,10 +119,9 @@
             // txtEng
             // 
             this.txtEng.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtEng.Location = new System.Drawing.Point(94, 216);
-            this.txtEng.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEng.Location = new System.Drawing.Point(70, 173);
             this.txtEng.Name = "txtEng";
-            this.txtEng.Size = new System.Drawing.Size(132, 38);
+            this.txtEng.Size = new System.Drawing.Size(100, 32);
             this.txtEng.TabIndex = 17;
             this.txtEng.Text = "0";
             this.txtEng.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -138,10 +129,9 @@
             // txtChi
             // 
             this.txtChi.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtChi.Location = new System.Drawing.Point(94, 155);
-            this.txtChi.Margin = new System.Windows.Forms.Padding(4);
+            this.txtChi.Location = new System.Drawing.Point(70, 124);
             this.txtChi.Name = "txtChi";
-            this.txtChi.Size = new System.Drawing.Size(132, 38);
+            this.txtChi.Size = new System.Drawing.Size(100, 32);
             this.txtChi.TabIndex = 16;
             this.txtChi.Text = "0";
             this.txtChi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -149,10 +139,9 @@
             // txrName
             // 
             this.txrName.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txrName.Location = new System.Drawing.Point(94, 93);
-            this.txrName.Margin = new System.Windows.Forms.Padding(4);
+            this.txrName.Location = new System.Drawing.Point(70, 74);
             this.txrName.Name = "txrName";
-            this.txrName.Size = new System.Drawing.Size(132, 38);
+            this.txrName.Size = new System.Drawing.Size(100, 32);
             this.txrName.TabIndex = 15;
             this.txrName.Text = "0";
             this.txrName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -161,10 +150,9 @@
             // 
             this.labMath.AutoSize = true;
             this.labMath.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labMath.Location = new System.Drawing.Point(7, 281);
-            this.labMath.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labMath.Location = new System.Drawing.Point(5, 225);
             this.labMath.Name = "labMath";
-            this.labMath.Size = new System.Drawing.Size(65, 29);
+            this.labMath.Size = new System.Drawing.Size(53, 24);
             this.labMath.TabIndex = 14;
             this.labMath.Text = "數學:";
             // 
@@ -172,10 +160,9 @@
             // 
             this.labEng.AutoSize = true;
             this.labEng.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labEng.Location = new System.Drawing.Point(7, 223);
-            this.labEng.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labEng.Location = new System.Drawing.Point(5, 178);
             this.labEng.Name = "labEng";
-            this.labEng.Size = new System.Drawing.Size(65, 29);
+            this.labEng.Size = new System.Drawing.Size(53, 24);
             this.labEng.TabIndex = 13;
             this.labEng.Text = "英文:";
             // 
@@ -183,10 +170,9 @@
             // 
             this.labChi.AutoSize = true;
             this.labChi.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labChi.Location = new System.Drawing.Point(7, 162);
-            this.labChi.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labChi.Location = new System.Drawing.Point(5, 130);
             this.labChi.Name = "labChi";
-            this.labChi.Size = new System.Drawing.Size(65, 29);
+            this.labChi.Size = new System.Drawing.Size(53, 24);
             this.labChi.TabIndex = 12;
             this.labChi.Text = "國文:";
             // 
@@ -194,18 +180,17 @@
             // 
             this.labName.AutoSize = true;
             this.labName.Font = new System.Drawing.Font("微軟正黑體", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labName.Location = new System.Drawing.Point(7, 105);
-            this.labName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labName.Location = new System.Drawing.Point(5, 84);
             this.labName.Name = "labName";
-            this.labName.Size = new System.Drawing.Size(65, 29);
+            this.labName.Size = new System.Drawing.Size(53, 24);
             this.labName.TabIndex = 11;
             this.labName.Text = "姓名:";
             // 
             // Homework04_Student_StructForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(657, 560);
+            this.ClientSize = new System.Drawing.Size(493, 448);
             this.Controls.Add(this.btn_HighestandLowest);
             this.Controls.Add(this.groupBox_Score);
             this.Controls.Add(this.btnShow);
@@ -218,6 +203,7 @@
             this.Controls.Add(this.labEng);
             this.Controls.Add(this.labChi);
             this.Controls.Add(this.labName);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Homework04_Student_StructForm";
             this.Text = "Homework04_Student_StructForm";
             this.groupBox_Score.ResumeLayout(false);

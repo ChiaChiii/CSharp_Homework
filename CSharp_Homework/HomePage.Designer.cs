@@ -59,7 +59,6 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer1.Name = "splitContainer1";
             this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -72,9 +71,8 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1379, 890);
-            this.splitContainer1.SplitterDistance = 142;
-            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.Size = new System.Drawing.Size(1034, 712);
+            this.splitContainer1.SplitterDistance = 113;
             this.splitContainer1.TabIndex = 0;
             // 
             // label1
@@ -83,10 +81,10 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(56, 30);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Location = new System.Drawing.Point(42, 24);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(181, 60);
+            this.label1.Size = new System.Drawing.Size(143, 47);
             this.label1.TabIndex = 1;
             this.label1.Text = "C#作業";
             // 
@@ -94,7 +92,6 @@
             // 
             this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer2.Name = "splitContainer2";
             // 
             // splitContainer2.Panel1
@@ -121,9 +118,8 @@
             this.splitContainer2.Panel2.BackColor = System.Drawing.Color.Black;
             this.splitContainer2.Panel2.BackgroundImage = global::CSharp_Homework.Properties.Resources.chihiro012;
             this.splitContainer2.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.splitContainer2.Size = new System.Drawing.Size(1379, 743);
-            this.splitContainer2.SplitterDistance = 297;
-            this.splitContainer2.SplitterWidth = 5;
+            this.splitContainer2.Size = new System.Drawing.Size(1034, 595);
+            this.splitContainer2.SplitterDistance = 222;
             this.splitContainer2.TabIndex = 0;
             // 
             // button15
@@ -133,10 +129,10 @@
             this.button15.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button15.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button15.Location = new System.Drawing.Point(0, 588);
-            this.button15.Margin = new System.Windows.Forms.Padding(5);
+            this.button15.Location = new System.Drawing.Point(0, 476);
+            this.button15.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(297, 42);
+            this.button15.Size = new System.Drawing.Size(222, 34);
             this.button15.TabIndex = 15;
             this.button15.Text = "15_考試Alarm";
             this.button15.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -149,10 +145,10 @@
             this.button14.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button14.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button14.Location = new System.Drawing.Point(0, 546);
-            this.button14.Margin = new System.Windows.Forms.Padding(5);
+            this.button14.Location = new System.Drawing.Point(0, 442);
+            this.button14.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(297, 42);
+            this.button14.Size = new System.Drawing.Size(222, 34);
             this.button14.TabIndex = 14;
             this.button14.Text = "14_考試Guess";
             this.button14.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -165,10 +161,10 @@
             this.button13.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button13.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button13.Location = new System.Drawing.Point(0, 504);
-            this.button13.Margin = new System.Windows.Forms.Padding(5);
+            this.button13.Location = new System.Drawing.Point(0, 408);
+            this.button13.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(297, 42);
+            this.button13.Size = new System.Drawing.Size(222, 34);
             this.button13.TabIndex = 13;
             this.button13.Text = "13_Picture Viewer";
             this.button13.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -181,10 +177,10 @@
             this.button12.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button12.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button12.Location = new System.Drawing.Point(0, 462);
-            this.button12.Margin = new System.Windows.Forms.Padding(5);
+            this.button12.Location = new System.Drawing.Point(0, 374);
+            this.button12.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(297, 42);
+            this.button12.Size = new System.Drawing.Size(222, 34);
             this.button12.TabIndex = 12;
             this.button12.Text = "12_小畫家";
             this.button12.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -197,10 +193,10 @@
             this.button11.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button11.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button11.Location = new System.Drawing.Point(0, 420);
-            this.button11.Margin = new System.Windows.Forms.Padding(5);
+            this.button11.Location = new System.Drawing.Point(0, 340);
+            this.button11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(297, 42);
+            this.button11.Size = new System.Drawing.Size(222, 34);
             this.button11.TabIndex = 11;
             this.button11.Text = "11_NotePad";
             this.button11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -213,14 +209,15 @@
             this.button10.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button10.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button10.Location = new System.Drawing.Point(0, 378);
-            this.button10.Margin = new System.Windows.Forms.Padding(5);
+            this.button10.Location = new System.Drawing.Point(0, 306);
+            this.button10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(297, 42);
+            this.button10.Size = new System.Drawing.Size(222, 34);
             this.button10.TabIndex = 10;
             this.button10.Text = "10_ScreenSaver";
             this.button10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button9
             // 
@@ -229,10 +226,10 @@
             this.button9.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button9.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button9.Location = new System.Drawing.Point(0, 336);
-            this.button9.Margin = new System.Windows.Forms.Padding(5);
+            this.button9.Location = new System.Drawing.Point(0, 272);
+            this.button9.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(297, 42);
+            this.button9.Size = new System.Drawing.Size(222, 34);
             this.button9.TabIndex = 9;
             this.button9.Text = "09_XOGame";
             this.button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -246,10 +243,10 @@
             this.button8.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button8.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button8.Location = new System.Drawing.Point(0, 294);
-            this.button8.Margin = new System.Windows.Forms.Padding(5);
+            this.button8.Location = new System.Drawing.Point(0, 238);
+            this.button8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(297, 42);
+            this.button8.Size = new System.Drawing.Size(222, 34);
             this.button8.TabIndex = 8;
             this.button8.Text = "08_ForDoWhile";
             this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -262,10 +259,10 @@
             this.button7.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button7.Location = new System.Drawing.Point(0, 252);
-            this.button7.Margin = new System.Windows.Forms.Padding(5);
+            this.button7.Location = new System.Drawing.Point(0, 204);
+            this.button7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(297, 42);
+            this.button7.Size = new System.Drawing.Size(222, 34);
             this.button7.TabIndex = 7;
             this.button7.Text = "07_MyClac";
             this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -279,10 +276,10 @@
             this.button6.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button6.Location = new System.Drawing.Point(0, 210);
-            this.button6.Margin = new System.Windows.Forms.Padding(5);
+            this.button6.Location = new System.Drawing.Point(0, 170);
+            this.button6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(297, 42);
+            this.button6.Size = new System.Drawing.Size(222, 34);
             this.button6.TabIndex = 6;
             this.button6.Text = "06_StudentsGrade_list";
             this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -295,10 +292,10 @@
             this.button5.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.Location = new System.Drawing.Point(0, 168);
-            this.button5.Margin = new System.Windows.Forms.Padding(5);
+            this.button5.Location = new System.Drawing.Point(0, 136);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(297, 42);
+            this.button5.Size = new System.Drawing.Size(222, 34);
             this.button5.TabIndex = 5;
             this.button5.Text = "05_StudentsGrade";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -311,10 +308,10 @@
             this.button4.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.Location = new System.Drawing.Point(0, 126);
-            this.button4.Margin = new System.Windows.Forms.Padding(5);
+            this.button4.Location = new System.Drawing.Point(0, 102);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(297, 42);
+            this.button4.Size = new System.Drawing.Size(222, 34);
             this.button4.TabIndex = 4;
             this.button4.Text = "04_Student_StructForm";
             this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -328,10 +325,10 @@
             this.button3.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.Location = new System.Drawing.Point(0, 84);
-            this.button3.Margin = new System.Windows.Forms.Padding(5);
+            this.button3.Location = new System.Drawing.Point(0, 68);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(297, 42);
+            this.button3.Size = new System.Drawing.Size(222, 34);
             this.button3.TabIndex = 3;
             this.button3.Text = "03_POS";
             this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -345,10 +342,10 @@
             this.button2.Font = new System.Drawing.Font("微軟正黑體", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(0, 42);
-            this.button2.Margin = new System.Windows.Forms.Padding(5);
+            this.button2.Location = new System.Drawing.Point(0, 34);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(297, 42);
+            this.button2.Size = new System.Drawing.Size(222, 34);
             this.button2.TabIndex = 2;
             this.button2.Text = "02_Loan";
             this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -363,9 +360,9 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button1.Location = new System.Drawing.Point(0, 0);
-            this.button1.Margin = new System.Windows.Forms.Padding(5);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(297, 42);
+            this.button1.Size = new System.Drawing.Size(222, 34);
             this.button1.TabIndex = 1;
             this.button1.Text = "01_Hello";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -374,11 +371,10 @@
             // 
             // HomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1379, 890);
+            this.ClientSize = new System.Drawing.Size(1034, 712);
             this.Controls.Add(this.splitContainer1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "HomePage";
             this.Text = "HomePage";
             this.splitContainer1.Panel1.ResumeLayout(false);

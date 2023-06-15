@@ -77,5 +77,20 @@ namespace CSharp_Homework
             Homework09_XOGame frm09 =new Homework09_XOGame();
             ShowForm(frm09);
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Homework10_ScreenSaver frm10 = new Homework10_ScreenSaver();
+            // 關閉目前顯示的表單
+            if (currentForm != null)
+            {
+                currentForm.Close();
+                currentForm.Dispose();
+            }
+
+            // 顯示表單
+            frm10.Show();
+        }
+        
     }
 }

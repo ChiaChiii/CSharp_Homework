@@ -63,6 +63,16 @@ namespace CSharp_Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap anime_sky_wallpaper_hd_5 {
+            get {
+                object obj = ResourceManager.GetObject("anime-sky-wallpaper-hd-5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap chihiro012 {
             get {
                 object obj = ResourceManager.GetObject("chihiro012", resourceCulture);
@@ -83,9 +93,29 @@ namespace CSharp_Homework.Properties {
         /// <summary>
         ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
         /// </summary>
+        internal static System.Drawing.Bitmap pngegg {
+            get {
+                object obj = ResourceManager.GetObject("pngegg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
         internal static System.Drawing.Bitmap pngegg__1_ {
             get {
                 object obj = ResourceManager.GetObject("pngegg (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Spirited_Away_Wallpaper_4K_PC {
+            get {
+                object obj = ResourceManager.GetObject("Spirited Away Wallpaper 4K PC", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +136,16 @@ namespace CSharp_Homework.Properties {
         internal static System.Drawing.Bitmap totoro036 {
             get {
                 object obj = ResourceManager.GetObject("totoro036", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap tumblr_ol6o615mfP1qa9gmgo6_1280 {
+            get {
+                object obj = ResourceManager.GetObject("tumblr_ol6o615mfP1qa9gmgo6_1280", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
