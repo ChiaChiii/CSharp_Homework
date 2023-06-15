@@ -28,7 +28,7 @@ namespace CSharp_Homework
                 btnTControls[i].Click += buttons_Click;
             }
         }
-        //設定遊戲開始的按鍵文字、顏色、字型
+        //設定遊戲開始的按鍵文字
         private void initButtons()
         {
             isGameOver = false;
@@ -43,17 +43,16 @@ namespace CSharp_Homework
         {
             initButtons();
         }
+
         private void buttons_Click(object sender, EventArgs e)
         {
             Button tmpButton = (Button)sender;
             if (isGameOver)
             {
-                MessageBox.Show("遊戲結束....請重新開始遊戲!", "遊戲結束", MessageBoxButtons.OK);
                 return;
             }
             if (tmpButton.Text != "")
-            {
-                MessageBox.Show("這個按鍵已經選擇了，請點選其他位置！", "提示", MessageBoxButtons.OK);
+            {                
                 return;
             }
             if (isO)
@@ -69,21 +68,19 @@ namespace CSharp_Homework
             isO = !isO;
 
             bool[] GameStatus = CheckWinGroup(btnTControls);
-            isGameOver = GameStatus[1];
+            
+
             //有人獲勝
             if (GameStatus[0])
             {
-                DialogResult dr = MessageBox.Show($"{tmpButton.Text}手獲勝!", "完局!", MessageBoxButtons.OK);
-                if (dr == DialogResult.OK)
-                    initButtons();
-                return;
+                MessageBox.Show($"{tmpButton.Text}手獲勝!", "完局!", MessageBoxButtons.OK);
+                initButtons();
             }
             //和局
             if (GameStatus[1])
             {
-                DialogResult dr = MessageBox.Show("遊戲結束....\r\n和局\r\n是否重新開始遊戲", "遊戲結束", MessageBoxButtons.OKCancel);
-                if (dr == DialogResult.OK)
-                    initButtons();
+                MessageBox.Show("平手!按下確定重新開始", "完局", MessageBoxButtons.OK);
+                initButtons();
             }
         }
 
@@ -122,8 +119,8 @@ namespace CSharp_Homework
 
                 //連線成功，遊戲結束
                 if (b1.Text == b2.Text && b2.Text == b3.Text)
-                {                   
-                    gameWinOver = new bool[2] { true, true };
+                {
+                    gameWinOver[0] = true;
                     break;
                 }
 
