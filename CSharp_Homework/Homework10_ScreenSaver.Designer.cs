@@ -61,8 +61,8 @@
             this.Name = "Homework10_ScreenSaver";
             this.Text = "Homework10_ScreenSaver";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Homework10_ScreenSaver_Load);
             this.Click += new System.EventHandler(this.Homework10_ScreenSaver_Click);
-            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Homework10_ScreenSaver_MouseMove);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

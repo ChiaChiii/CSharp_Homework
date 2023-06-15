@@ -17,7 +17,11 @@ namespace CSharp_Homework
         public Homework10_ScreenSaver()
         {
             InitializeComponent();
-            DoubleBuffered = true;
+            //DoubleBuffered = true;嗚嗚對於平滑pictureBox1的移動沒有很有效
+            timer = new Timer();
+            timer.Interval = 1000; // 設定計時器間隔，以毫秒為單位
+            timer.Tick += Timer_Tick; // 設定計時器事件處理方法
+
         }
 
         private void Homework10_ScreenSaver_Click(object sender, EventArgs e)
@@ -40,10 +44,21 @@ namespace CSharp_Homework
             }
             pictureBox1.Location = new Point(pictureBox1.Location.X + stepX, pictureBox1.Location.Y + stepY);
         }
-            
-        private void Homework10_ScreenSaver_MouseMove(object sender, MouseEventArgs e)
+        private Timer timer;        
+
+        private Point lastMousePosition;
+
+        private void Homework10_ScreenSaver_Load(object sender, EventArgs e)
         {
-            
+            timer.Start(); // 啟動計時器
+            lastMousePosition = Cursor.Position; // 紀錄初始鼠標位置
+        }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            if (Cursor.Position != lastMousePosition)
+            {
+                this.Close(); // 如果鼠標位置改變，關閉表單
+            }
         }
     }
 }
