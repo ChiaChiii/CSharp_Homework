@@ -35,9 +35,7 @@ namespace CSharp_Homework
             isO = true;
             for (int i = 0; i < btnTControls.Length; i++)
             {
-                btnTControls[i].Text = "";
-                btnTControls[i].BackColor = Color.LightBlue;
-                btnTControls[i].Font = new System.Drawing.Font("Arial", 30, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((System.Byte)1));
+                btnTControls[i].Text = "";                
             }
         }
 
@@ -75,7 +73,7 @@ namespace CSharp_Homework
             //有人獲勝
             if (GameStatus[0])
             {
-                DialogResult dr = MessageBox.Show("遊戲結束....\r\n" + tmpButton.Text + " 獲勝\r\n是否重新開始遊戲", "遊戲結束", MessageBoxButtons.OKCancel);
+                DialogResult dr = MessageBox.Show($"{tmpButton.Text}手獲勝!", "完局!", MessageBoxButtons.OK);
                 if (dr == DialogResult.OK)
                     initButtons();
                 return;
@@ -124,9 +122,7 @@ namespace CSharp_Homework
 
                 //連線成功，遊戲結束
                 if (b1.Text == b2.Text && b2.Text == b3.Text)
-                {
-                    b1.BackColor = b2.BackColor = b3.BackColor = Color.LightCoral;
-                    b1.Font = b2.Font = b3.Font = new System.Drawing.Font("Times New Roman", 35, System.Drawing.FontStyle.Italic & System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel, ((System.Byte)1));
+                {                   
                     gameWinOver = new bool[2] { true, true };
                     break;
                 }
