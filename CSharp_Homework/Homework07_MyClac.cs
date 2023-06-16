@@ -27,9 +27,9 @@ namespace CSharp_Homework
                 MessageBox.Show("請輸入數值。");
                 return false;
             }
-            int number1, number2;
+            double number1, number2;
 
-            if (!int.TryParse(txtNum1.Text, out number1) || !int.TryParse(txtNum2.Text, out number2))
+            if (!double.TryParse(txtNum1.Text, out number1) || !double.TryParse(txtNum2.Text, out number2))
             {
                 MessageBox.Show("請輸入數值。");
                 return false;
@@ -41,8 +41,8 @@ namespace CSharp_Homework
         {
             if (CheckTextBoxValues())
             {
-                int number1 = int.Parse(txtNum1.Text);
-                int number2 = int.Parse(txtNum2.Text);
+                double number1 = double.Parse(txtNum1.Text);
+                double number2 = double.Parse(txtNum2.Text);
                 labShowAnswer.Text = (number1 + number2).ToString();
             }
 
@@ -53,8 +53,8 @@ namespace CSharp_Homework
         {
             if (CheckTextBoxValues())
             {
-                int number1 = int.Parse(txtNum1.Text);
-                int number2 = int.Parse(txtNum2.Text);
+                double number1 = double.Parse(txtNum1.Text);
+                double number2 = double.Parse(txtNum2.Text);
                 labShowAnswer.Text = (number1 - number2).ToString();
             }
         }
@@ -63,8 +63,8 @@ namespace CSharp_Homework
         {
             if (CheckTextBoxValues())
             {
-                int number1 = int.Parse(txtNum1.Text);
-                int number2 = int.Parse(txtNum2.Text);
+                double number1 = double.Parse(txtNum1.Text);
+                double number2 = double.Parse(txtNum2.Text);
                 labShowAnswer.Text = (number1 * number2).ToString();
             }
         }
@@ -73,9 +73,9 @@ namespace CSharp_Homework
         {
             if (CheckTextBoxValues())
             {
-                int number1 = int.Parse(txtNum1.Text);
-                int number2 = int.Parse(txtNum2.Text);
-                if (int.Parse(txtNum2.Text) == 0)
+                double number1 = double.Parse(txtNum1.Text);
+                double number2 = double.Parse(txtNum2.Text);
+                if (double.Parse(txtNum2.Text) == 0)
                 {
                     labShowAnswer.Text = "∞";
                 }

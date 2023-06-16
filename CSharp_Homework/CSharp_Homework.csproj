@@ -82,11 +82,23 @@
     <Compile Include="Homework04_Student_StructForm.Designer.cs">
       <DependentUpon>Homework04_Student_StructForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Homework05_StudentsGrade%28未完成%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework05_StudentsGrade%28未完成%29.Designer.cs">
+      <DependentUpon>Homework05_StudentsGrade%28未完成%29.cs</DependentUpon>
+    </Compile>
     <Compile Include="Homework07_MyClac.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Homework07_MyClac.Designer.cs">
       <DependentUpon>Homework07_MyClac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Homework08_ForDoWhile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Homework08_ForDoWhile.Designer.cs">
+      <DependentUpon>Homework08_ForDoWhile.cs</DependentUpon>
     </Compile>
     <Compile Include="Homework09_XOGame.cs">
       <SubType>Form</SubType>
@@ -120,8 +132,14 @@
     <EmbeddedResource Include="Homework04_Student_StructForm.resx">
       <DependentUpon>Homework04_Student_StructForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Homework05_StudentsGrade%28未完成%29.resx">
+      <DependentUpon>Homework05_StudentsGrade%28未完成%29.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Homework07_MyClac.resx">
       <DependentUpon>Homework07_MyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Homework08_ForDoWhile.resx">
+      <DependentUpon>Homework08_ForDoWhile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Homework09_XOGame.resx">
       <DependentUpon>Homework09_XOGame.cs</DependentUpon>
@@ -178,6 +196,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Spirited Away Wallpaper 4K PC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porco017.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\howl020.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mimi037.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

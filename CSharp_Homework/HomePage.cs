@@ -66,10 +66,25 @@ namespace CSharp_Homework
             ShowForm(frm04);
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("嗚嗚還沒做好先跳過", "拍謝拍謝",MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("嗚嗚還沒做好先跳過", "拍謝拍謝", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }    
+
         private void button7_Click(object sender, EventArgs e)
         {
             Homework07_MyClac frm07 = new Homework07_MyClac();
             ShowForm(frm07);
+        }
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Homework08_ForDoWhile frm08 = new Homework08_ForDoWhile();
+            ShowForm(frm08);
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -91,6 +106,7 @@ namespace CSharp_Homework
             // 顯示表單
             frm10.Show();
         }
+
         
     }
 }

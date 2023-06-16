@@ -17,10 +17,11 @@ namespace CSharp_Homework
         public Homework10_ScreenSaver()
         {
             InitializeComponent();
-            //DoubleBuffered = true;嗚嗚對於平滑pictureBox1的移動沒有很有效
+            //DoubleBuffered = true;註解掉了因為對於平滑pictureBox1的移動沒有很有效,只好放棄加圖案背景QQ
+
             timer = new Timer();
-            timer.Interval = 1000; // 設定計時器間隔，以毫秒為單位
-            timer.Tick += Timer_Tick; // 設定計時器事件處理方法
+            timer.Interval = 1000; // 設定計時器間隔
+            timer.Tick += Timer_Tick; // 設定計時器方法
 
         }
 
@@ -51,7 +52,7 @@ namespace CSharp_Homework
         private void Homework10_ScreenSaver_Load(object sender, EventArgs e)
         {
             timer.Start(); // 啟動計時器
-            lastMousePosition = Cursor.Position; // 紀錄初始鼠標位置
+            lastMousePosition = Cursor.Position; // 紀錄初始鼠位置
         }
         private void Timer_Tick(object sender, EventArgs e)
         {

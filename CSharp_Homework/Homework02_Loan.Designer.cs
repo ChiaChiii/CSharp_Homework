@@ -44,10 +44,9 @@
             // bntReport
             // 
             this.bntReport.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.bntReport.Location = new System.Drawing.Point(356, 362);
-            this.bntReport.Margin = new System.Windows.Forms.Padding(4);
+            this.bntReport.Location = new System.Drawing.Point(291, 357);
             this.bntReport.Name = "bntReport";
-            this.bntReport.Size = new System.Drawing.Size(147, 78);
+            this.bntReport.Size = new System.Drawing.Size(110, 62);
             this.bntReport.TabIndex = 21;
             this.bntReport.Text = "Report";
             this.bntReport.UseVisualStyleBackColor = true;
@@ -56,10 +55,9 @@
             // bntTotal
             // 
             this.bntTotal.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.bntTotal.Location = new System.Drawing.Point(182, 362);
-            this.bntTotal.Margin = new System.Windows.Forms.Padding(4);
+            this.bntTotal.Location = new System.Drawing.Point(160, 357);
             this.bntTotal.Name = "bntTotal";
-            this.bntTotal.Size = new System.Drawing.Size(147, 78);
+            this.bntTotal.Size = new System.Drawing.Size(110, 62);
             this.bntTotal.TabIndex = 20;
             this.bntTotal.Text = "總付款";
             this.bntTotal.UseVisualStyleBackColor = true;
@@ -68,10 +66,9 @@
             // btnPMT
             // 
             this.btnPMT.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.btnPMT.Location = new System.Drawing.Point(18, 362);
-            this.btnPMT.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPMT.Location = new System.Drawing.Point(38, 357);
             this.btnPMT.Name = "btnPMT";
-            this.btnPMT.Size = new System.Drawing.Size(147, 78);
+            this.btnPMT.Size = new System.Drawing.Size(110, 62);
             this.btnPMT.TabIndex = 19;
             this.btnPMT.Text = "月付(PMT)";
             this.btnPMT.UseVisualStyleBackColor = true;
@@ -80,92 +77,86 @@
             // labDownPayment
             // 
             this.labDownPayment.AutoSize = true;
-            this.labDownPayment.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labDownPayment.Location = new System.Drawing.Point(97, 241);
-            this.labDownPayment.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labDownPayment.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labDownPayment.Location = new System.Drawing.Point(238, 65);
             this.labDownPayment.Name = "labDownPayment";
-            this.labDownPayment.Size = new System.Drawing.Size(96, 35);
+            this.labDownPayment.Size = new System.Drawing.Size(67, 24);
             this.labDownPayment.TabIndex = 18;
             this.labDownPayment.Text = "頭期款";
             // 
             // labRates
             // 
             this.labRates.AutoSize = true;
-            this.labRates.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labRates.Location = new System.Drawing.Point(97, 164);
-            this.labRates.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labRates.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labRates.Location = new System.Drawing.Point(237, 13);
             this.labRates.Name = "labRates";
-            this.labRates.Size = new System.Drawing.Size(111, 35);
+            this.labRates.Size = new System.Drawing.Size(79, 24);
             this.labRates.TabIndex = 17;
             this.labRates.Text = "利率(%)";
             // 
             // labYear
             // 
             this.labYear.AutoSize = true;
-            this.labYear.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labYear.Location = new System.Drawing.Point(97, 93);
-            this.labYear.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labYear.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labYear.Location = new System.Drawing.Point(22, 67);
             this.labYear.Name = "labYear";
-            this.labYear.Size = new System.Drawing.Size(114, 35);
+            this.labYear.Size = new System.Drawing.Size(81, 24);
             this.labYear.TabIndex = 16;
             this.labYear.Text = "期限(年)";
             // 
             // labLaon
             // 
             this.labLaon.AutoSize = true;
-            this.labLaon.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.labLaon.Location = new System.Drawing.Point(97, 25);
-            this.labLaon.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labLaon.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.labLaon.Location = new System.Drawing.Point(22, 13);
             this.labLaon.Name = "labLaon";
-            this.labLaon.Size = new System.Drawing.Size(123, 35);
+            this.labLaon.Size = new System.Drawing.Size(86, 24);
             this.labLaon.TabIndex = 15;
             this.labLaon.Text = "貸款金額";
             // 
             // txtDownPayment
             // 
-            this.txtDownPayment.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtDownPayment.Location = new System.Drawing.Point(278, 237);
-            this.txtDownPayment.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDownPayment.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtDownPayment.Location = new System.Drawing.Point(322, 62);
             this.txtDownPayment.Name = "txtDownPayment";
-            this.txtDownPayment.Size = new System.Drawing.Size(132, 42);
+            this.txtDownPayment.Size = new System.Drawing.Size(103, 33);
             this.txtDownPayment.TabIndex = 14;
             this.txtDownPayment.Text = "0";
             // 
             // txtRates
             // 
-            this.txtRates.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtRates.Location = new System.Drawing.Point(278, 161);
-            this.txtRates.Margin = new System.Windows.Forms.Padding(4);
+            this.txtRates.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtRates.Location = new System.Drawing.Point(322, 12);
             this.txtRates.Name = "txtRates";
-            this.txtRates.Size = new System.Drawing.Size(132, 42);
+            this.txtRates.Size = new System.Drawing.Size(103, 33);
             this.txtRates.TabIndex = 13;
             this.txtRates.Text = "10";
             // 
             // txtYear
             // 
-            this.txtYear.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.txtYear.Location = new System.Drawing.Point(278, 89);
-            this.txtYear.Margin = new System.Windows.Forms.Padding(4);
+            this.txtYear.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.txtYear.Location = new System.Drawing.Point(109, 61);
             this.txtYear.Name = "txtYear";
-            this.txtYear.Size = new System.Drawing.Size(132, 42);
+            this.txtYear.Size = new System.Drawing.Size(100, 33);
             this.txtYear.TabIndex = 12;
             this.txtYear.Text = "2";
             // 
             // textLoan
             // 
-            this.textLoan.Font = new System.Drawing.Font("微軟正黑體", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.textLoan.Location = new System.Drawing.Point(278, 23);
-            this.textLoan.Margin = new System.Windows.Forms.Padding(4);
+            this.textLoan.Font = new System.Drawing.Font("微軟正黑體", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.textLoan.Location = new System.Drawing.Point(109, 10);
             this.textLoan.Name = "textLoan";
-            this.textLoan.Size = new System.Drawing.Size(132, 42);
+            this.textLoan.Size = new System.Drawing.Size(100, 33);
             this.textLoan.TabIndex = 11;
             this.textLoan.Text = "100000";
             // 
             // Homework02_Loan
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(508, 471);
+            this.BackgroundImage = global::CSharp_Homework.Properties.Resources.porco017;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(437, 436);
             this.Controls.Add(this.bntReport);
             this.Controls.Add(this.bntTotal);
             this.Controls.Add(this.btnPMT);
@@ -177,6 +168,7 @@
             this.Controls.Add(this.txtRates);
             this.Controls.Add(this.txtYear);
             this.Controls.Add(this.textLoan);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Homework02_Loan";
             this.Text = "貸款金額計算";
             this.ResumeLayout(false);
